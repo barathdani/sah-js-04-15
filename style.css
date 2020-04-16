@@ -1,3 +1,29 @@
 h1 {
   color: red;
 }
+div {
+  float: left;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 4px solid black;
+  padding: 5px 2px 5px 2px;
+  background: lime;
+}
+
+.first {
+  border: 4px solid red;
+}
+.second {
+  background-color: white;
+}
+.fourth {
+  border: 4px solid blue;
+}
+.fifth {
+  background-color: yellow;
+  border: 4px solid purple;
+}
+
+.hidden {
+  display: none;
+}

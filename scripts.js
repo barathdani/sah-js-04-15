@@ -1,3 +1,17 @@
+//4th part
+//$('selector').action();
+//$('div').css('background','purple');
+//$('.first').toggleClass('hidden');
+$('p').css('background', 'purple');
+//$('.first').toggleClass('hidden');
+$('p').text('<strong>Hello world<strong>');
+$('p').html('<strong>hello world</strong>');
+$('p').append('<strong>another<strong>');
+
+$('button').click(() =>{
+  $('.first').toggleClass('hidden');
+});
+//From 1st part to the 3rd
 console.log("javascript is working");
 
 let post = {
@@ -38,7 +52,7 @@ for (let i = 0; i < 10; i++) {
  }
 
  let greeter = name => {
-   console.log(`Hello, ${name}`);
+   consol.log(`Hello, ${name}`);
  }
 
  greeter("Adam");
